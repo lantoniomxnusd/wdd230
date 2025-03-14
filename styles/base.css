@@ -1,36 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #1E3A5F; 
+    --secondary-color: #3B5998; 
+    --accent-color: #FCA311; 
+    --text-color: #FFFFFF; 
+  }
+
 body {
+    font-family: 'Open Sans'; sans-seriff;
     margin: 0 auto;
     font-family: Arial, sans-serif;
     max-width: 800px;
     padding: 20px;
+    color: var(--primary-color);
+}
 
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
 }
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: navy;
+    background-color: #2C3E50;
 }
 
 header span {
     margin: 20px;
-    color: white;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+
 }
 
 header img {
     box-shadow: 1px 1px 10px black;
-    margin: 10px;
+    margin: 20px;
 }
 
 nav {
-    background-color: #36454f;
+    background-color: var(--primary-color);
     margin: 0 auto;
 }
 
@@ -41,20 +61,22 @@ nav ul {
 
 nav a {
     display: block;
-    color: #fff;
+    color: var(--text-color);
     text-align:center;
     padding: 1rem;
     text-decoration: none;
+    background-color: var(--secondary-color);
+    transition: background-color .3s;
 
 }
 
 
 nav a:hover{
-    background-color: rgba(255,255,255, .2);
+    background-color: var(--accent-color);
 }
 
 nav .active{
-    background-color: rgba(0,0,0, .3);
+    background-color: var(--accent-color)
 }
 
 main {
@@ -62,6 +84,10 @@ main {
     max-width: 800px;
 }
 
+main h1 {
+    display: inline-block;
+    border-bottom: 1px solid gray;
+}
 .card {
     border: 1px solid #415541;
     background-color: #e9f5e9;
@@ -78,6 +104,7 @@ main {
     padding: .75 rem 0;
     text-align: center;
 
+
 }
 
 .card li {
@@ -86,4 +113,10 @@ main {
 
 h1 {
     font-size: 2rem;
+    color: #2C3E50; 
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
 }
