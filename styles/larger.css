@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 640px) {
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -16,5 +16,12 @@
 
     .card {
         box-shadow: 1px 1px 10px black;
+    }
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
     }
 }
