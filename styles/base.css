@@ -89,7 +89,7 @@ main h1 {
     border: 1px solid var(--secondary-color);
     background-color:var(--text-color);
     border-radius: 5px;
-    margin: 1rem 0px;
+    margin: 1rem 0;
     overflow: hidden;
 
 }
@@ -98,7 +98,7 @@ main h1 {
     background-color:var(--primary-color);
     color: #fff;
     display: block;
-    padding: .75 rem 0px;
+    padding: .75rem;
     text-align: center;
 
 
