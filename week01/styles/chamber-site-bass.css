@@ -63,7 +63,9 @@ nav .active {
 }
 
 main {
+    display: grid;
     margin: 1rem 2vw;
+    text-align: center;
 }
 
 main h1 {
