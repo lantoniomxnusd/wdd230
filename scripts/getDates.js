@@ -31,7 +31,7 @@ modeButton.addEventListener("click", () => {
 	} else {
 		main.style.background = "#eee";
 		main.style.color = "#000";
-
+        links.forEach(link => link.style.color = "none");
 		modeButton.textContent = "✨";
 	}
 });
