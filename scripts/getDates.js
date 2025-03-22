@@ -19,14 +19,19 @@ hamburgerElement.addEventListener('click', () => {
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
 
+
 modeButton.addEventListener("click", () => {
+    const links = document.querySelectorAll("a"); 
 	if (modeButton.textContent.includes("✨")) {
 		main.style.background = "#000";
 		main.style.color = "#fff";
-		modeButton.textContent = "🔆";
+        links.forEach(link => link.style.color = "#fff");
+        modeButton.textContent = "🔆";
+
 	} else {
 		main.style.background = "#eee";
 		main.style.color = "#000";
+
 		modeButton.textContent = "✨";
 	}
 });

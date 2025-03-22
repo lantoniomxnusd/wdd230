@@ -22,7 +22,7 @@ body {
 
 h1, h2 {
     font-family: var(--font-heading);
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 
 header {
@@ -130,7 +130,7 @@ main {
 
 main h1 {
     display: inline-block;
-    border-bottom: 1px solid var(--primary-color);
+    /* border-bottom: 1px solid var(--primary-color); */
 
 }
 .card {
@@ -156,10 +156,10 @@ main h1 {
     padding: 5px;
 }
 
-h1 {
+/* h1 {
     font-size: 2rem;
     color: #2C3E50; 
-}
+} */
 p {
     padding: 10px;
 }
@@ -173,4 +173,12 @@ footer {
 
 #lastModified {
     color: yellow;
+}
+
+main.dark {
+
+}
+
+main.dark h2 {
+
 }
