@@ -26,6 +26,7 @@ h1, h2 {
 }
 
 header {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +47,15 @@ header img {
     margin: 20px;
 }
 
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
 nav {
     background-color: var(--secondary-color);
     margin: 0 auto;
@@ -56,6 +66,9 @@ nav {
 }
 
 #myButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     font-size: 2rem;
     background: none;
     border: none;
@@ -122,9 +135,9 @@ main h1 {
 }
 .card {
     border: 1px solid var(--secondary-color);
-    background-color:var(--text-color);
+    /* background-color:var(--text-color); */
     border-radius: 5px;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
     overflow: hidden;
 
 }
