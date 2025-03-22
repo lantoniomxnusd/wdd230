@@ -22,16 +22,20 @@ const main = document.querySelector("main");
 
 modeButton.addEventListener("click", () => {
     const links = document.querySelectorAll("a"); 
+    const dark = document.querySelector("h1");
+
 	if (modeButton.textContent.includes("✨")) {
 		main.style.background = "#000";
 		main.style.color = "#fff";
         links.forEach(link => link.style.color = "#fff");
+        dark.style.color = "#fff";
         modeButton.textContent = "🔆";
 
 	} else {
 		main.style.background = "#eee";
 		main.style.color = "#000";
-        links.forEach(link => link.style.color = "none");
+        links.forEach(link => link.style.color = "");
+        dark.style.color = "";
 		modeButton.textContent = "✨";
 	}
 });

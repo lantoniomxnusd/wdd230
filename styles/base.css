@@ -66,9 +66,6 @@ nav {
 }
 
 #myButton {
-    position: absolute;
-    top: 10px;
-    right: 10px;
     font-size: 2rem;
     background: none;
     border: none;
@@ -130,14 +127,14 @@ main {
 
 main h1 {
     display: inline-block;
-    /* border-bottom: 1px solid var(--primary-color); */
+    text-align: center;
+    border-bottom: 1px solid var(--primary-color);
 
 }
 .card {
     border: 1px solid var(--secondary-color);
-    /* background-color:var(--text-color); */
     border-radius: 5px;
-    margin: 1rem 1rem;
+    margin: 1rem 0;
     overflow: hidden;
 
 }
@@ -156,10 +153,10 @@ main h1 {
     padding: 5px;
 }
 
-/* h1 {
+h1 {
     font-size: 2rem;
     color: #2C3E50; 
-} */
+}
 p {
     padding: 10px;
 }
@@ -173,12 +170,4 @@ footer {
 
 #lastModified {
     color: yellow;
-}
-
-main.dark {
-
-}
-
-main.dark h2 {
-
 }
