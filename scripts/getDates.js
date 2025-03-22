@@ -8,3 +8,10 @@ const options = {
 today.innerHTML = "Last modified: " + new Date().toLocaleDateString("en-US", options);
 
 
+const hamburgerElement = document.querySelector('#myButton');
+const navElement = document.querySelector('.menuLinks');
+
+hamburgerElement.addEventListener('click', () => {
+    // navElement.classList.toggle('open');
+    // hamburgerElement.classList.toggle('open');
+})
