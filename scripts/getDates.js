@@ -29,7 +29,7 @@ modeButton.addEventListener("click", () => {
 		main.style.color = "#fff";
         links.forEach(link => link.style.color = "#fff");
         dark.style.color = "#fff";
-        modeButton.textContent = "🔆";
+        modeButton.textContent = "🏜️";
 
 	} else {
 		main.style.background = "#eee";
