@@ -64,6 +64,8 @@ nav {
 
 #myButton::before {
     content: "\2630";
+    position: absolute;
+    top: 10px;
 }
 
 #myButton {
