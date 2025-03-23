@@ -214,3 +214,11 @@ iframe {
     width: 100%;
     height: auto;
 }
+
+.map-embed {
+    border: none;
+}
+
+#lastModified {
+    color: yellow;
+}
