@@ -5,6 +5,14 @@
         column-gap: 10px;
     }
 
+    main h1 {
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        justify-content: center;
+        width: 100%;
+    }
+
     nav ul {
         display: flex;
     }
