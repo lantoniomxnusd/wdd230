@@ -154,6 +154,10 @@ main h1 {
     padding: 5px;
 }
 
+.card p {
+    text-align: center;
+}
+
 h1 {
     font-size: 2rem;
     color: #2C3E50; 
