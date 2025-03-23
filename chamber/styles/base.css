@@ -1,0 +1,10 @@
+.hero picture {
+    width: 100vw;
+    height: auto;
+    display: block;   
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
