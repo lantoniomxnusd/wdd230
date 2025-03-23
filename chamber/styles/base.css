@@ -11,16 +11,90 @@
 }
 
 
+body {
+    margin: 0 auto;
+    padding: 10px;
 
 
+}
+
+h1, h2 {
+    font-family: var(--font-heading);
+}
+
+p {
+    font-family: var(--font-paragraph);
+}
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+header span {
+    margin: 20px;
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--font-heading);
+    text-align: center;
+}
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+
+
+nav {
+    background-color: var(--secondary-color);
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: .75rem 2vw;
+}
+
+nav a {
+    display: block;
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    transition: background-color .3s;
+
+}
+
+nav a:hover {
+    background-color: var(--accent-color);
+}
+
+nav .active {
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+ul.menuLinks li a {
+    display: block;
+}
 
 .hero picture {
     width: 100vw;
-    height: auto;
-    display: block;   
+    margin: 0 auto;
 }
 
 .hero img {
     width: 100%;
     height: auto;
+    display: block;
 }
