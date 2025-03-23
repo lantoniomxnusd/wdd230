@@ -25,7 +25,8 @@
 <body>
     <header>
         <div id="mode">✨</div>
-        <img src="images/profile.jpg" alt="Luis Olivares profile" width="75" height="100"> 
+
+        <img src="images/profile.webp" alt="Luis Olivares profile" width="75" height="100"> 
         <span>Luis Antonio Olivares</span>
     </header>
     <nav>
@@ -37,7 +38,16 @@
             <li><a href="">Form</a></li>
         </ul>
     </nav>
+    <div class="hero">
+        <picture>
+            <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
+            <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
+            <img src="/images/hero-large.webp" alt = "Guadalajara Temple" width="1500" height="750">
+            <span> Guadalajara Temple</span>
+        </picture>
+    </div>
     <main>
+
         <h1 class="dark">WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>

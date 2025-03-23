@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 960px) {
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -10,7 +10,7 @@
         grid-column-start: 1;
         grid-column-end: 3;
         justify-content: center;
-
+        width: 100%;
 
     }
 
@@ -32,6 +32,10 @@
     ul.menuLinks, ul.menuLinks.open {
         display:flex;
 
+    }
+
+    .hero span {
+        font-size: 2rem;
     }
 
     /* ul.menuLinks a:hover {
