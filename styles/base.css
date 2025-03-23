@@ -64,8 +64,6 @@ nav {
 
 #myButton::before {
     content: "\2630";
-    position: absolute;
-    top: 10px;
 }
 
 #myButton {
@@ -213,12 +211,4 @@ footer {
 iframe {
     width: 100%;
     height: auto;
-}
-
-.map-embed {
-    border: none;
-}
-
-#lastModified {
-    color: yellow;
 }
