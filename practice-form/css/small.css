@@ -130,3 +130,13 @@ footer {
     color: #fff;
 
 }
+
+
+/*----------- Validation form --------------*/
+label {
+    display: block;
+}
+
+#feedback {
+    color:red;
+}
