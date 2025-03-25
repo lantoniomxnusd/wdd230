@@ -33,6 +33,7 @@ main {
 .auth legend {
     color:#445ba9;
     padding: 0 .5rem;
+    font-size: 1.25rem;
 }
 
 .auth label{
@@ -49,12 +50,12 @@ main {
 }
 
 .auth input[type="text"],
-.auth input[type="tel"],
-.auth input[type="email"],
-.auth input[type="url"],
-.auth input[type="date"],
-.auth select,
-.auth input[type="number"]{
+ input[type="tel"],
+ input[type="email"],
+ input[type="url"],
+ input[type="date"],
+ select,
+ input[type="number"]{
     background-color: #eee;
     display: block;
     border: solid 1px #999;
@@ -67,12 +68,12 @@ main {
     
 }
 
-.auth input[type="radio"],
-.auth input[type="checkbox"] {
+ input[type="radio"],
+ input[type="checkbox"] {
     margin-right: 6px;
 }
 
-.auth input[type="submit"]{
+ input[type="submit"]{
     border: none;
     background-image: linear-gradient(#9c2c13, #6f200e);
     color: #fff;
@@ -84,11 +85,11 @@ main {
     box-shadow: 1px 1px 4px #999;
 }
 
-.auth input:required {
+ input:required {
     border-bottom: solid 8px red;
 }
 
-.auth input:required:valid {
+ input:required:valid {
     border-bottom: solid 8px green;
 }
 
