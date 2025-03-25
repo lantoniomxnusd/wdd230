@@ -55,7 +55,8 @@ main {
  input[type="url"],
  input[type="date"],
  select,
- input[type="number"]{
+ input[type="number"],
+ input[type="password"]{
     background-color: #eee;
     display: block;
     border: solid 1px #999;
