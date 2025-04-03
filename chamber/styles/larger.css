@@ -45,8 +45,7 @@
     }
 
     .gallery {
-        grid-template-columns: repeat(auto-fit);
-
+        grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
     }    
 
     .counter {
