@@ -163,8 +163,6 @@ footer {
     color: yellow;
 }
 
-.hover:hover {box-shadow: 0 0 50px #333;
-}
 
 .discover {
     display: flex;
