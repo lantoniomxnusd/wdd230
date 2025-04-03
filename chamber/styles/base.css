@@ -163,12 +163,4 @@ footer {
     color: yellow;
 }
 
-@media only screen and (min-width: 32.5em) {
-	h1 {
-		font-size: 2rem;
-	}
-
-	main {
-		width: 320px;
-	}
-}
+.hover:hover {box-shadow: 0 0 50px #333;}
