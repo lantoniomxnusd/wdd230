@@ -40,6 +40,9 @@ modeButton.addEventListener("click", () => {
 	}
 });
 
+
+const visitsDisplay = document.querySelector(".visits");
+
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 if (numVisits !== 0) {
 	visitsDisplay.textContent = numVisits;
@@ -49,19 +52,21 @@ if (numVisits !== 0) {
 numVisits++;
 localStorage.setItem("numVisits-ls", numVisits);
 
-const visitsDisplay = document.querySelector(".visits");
-let lastVisit= localStorage.getItem("lastVisit")
-let currentVisit = new Date().getTime();
 
-if (!lastVisit) {
-    visitsDisplay.text = "Welcome! Let us know if you have any questions.";
-}else {
-    let timeDifference= currentVisit-Number(lastVisit);
-    let daysDifference= Math.floor(timeDifference/(1000 * 60 * 60 *24));
-}
 
-if (daysDifference < 1 {
-    visitsDisplay.textContent = "Back so soon! Awesome!";
-}else {
-    visitsDisplay.textContent = 'you last visited ${daysDifference}  ${daysDifference === 1 ? "day" : "days"} ago.';
-}
+
+// let lastVisit= localStorage.getItem("lastVisit")
+// let currentVisit = new Date().getTime();
+
+// if (!lastVisit) {
+//     visitsDisplay.text = "Welcome! Let us know if you have any questions.";
+// }else {
+//     let timeDifference= currentVisit-Number(lastVisit);
+//     let daysDifference= Math.floor(timeDifference/(1000 * 60 * 60 *24));
+// }
+
+// if (daysDifference < 1 {
+//     visitsDisplay.textContent = "Back so soon! Awesome!";
+// }else {
+//     visitsDisplay.textContent = 'you last visited ${daysDifference}  ${daysDifference === 1 ? "day" : "days"} ago.';
+// }
