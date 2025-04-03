@@ -45,8 +45,10 @@
     }
 
     .gallery {
+        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
-    }    
+        gap: 1rem;
+      }  
 
     .counter {
         display: flex;
