@@ -24,6 +24,10 @@
     .hero span {
         font-size: 2rem;
     }
+
+    .discover {
+        font-size: 2rem;
+    }
     
     #myButton {
         display: none;
