@@ -27,86 +27,112 @@
         <img src="/images/profile.webp" alt="Luis Olivares profile" width="75" height="100"> 
         <span>Luis Antonio Olivaress</span>
     </header>
+
     <nav>
         <button id="myButton"></button>
         <ul class = "menuLinks">
             <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="chamber/index.html" >Chamber</a></li>
             <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
             <li><a href="form.html">Form</a></li>
         </ul>
     </nav>
-    <main>
+
+    <main class="discover">
         <h1>Discover Ejido Santa Fe Chamber of Commerce</h1>
-        <section class="card">
-            <h2> Demographics</h2>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, eum.</p>
+
+        <section class="content">
+            <article class="box">
+                <h2> Demographics</h2>
+                <p> Ejido de Santa Fe has a population of 539 residents with 7.98% of the inhabitants identifying as indigenous and 3.71% speaking indigenous "Cora" language.</p>
+            </article>
+            <article class="box">
+                <h2> Attractions</h2>
+                <p>While Ejido Santa Fe is a small community, the broader municipality of Rosamoraada offers several points of interest:</p>
+                <ul>
+                    <li><strong>Parish of the Immaculate Conception Mary:</strong> A historic church located int hte municipal seat, showcasing colonial architecture.</li>
+                    <li><strong>former Hacienda of Chilapa: </strong>An old estate reflecting the region's history and cultural heritage.</li>
+                    <li><strong>Archaelogical Remains at the Municipal Presidency</strong> Artifacts and structures that provide insights into the area's pre-Hispanic civilizations.</li>
+                </ul>
+            </article>
+            <article class="box">
+                <h2> Events and Festivals</h2>
+                <p> The municipality hosts various cultural and religious events throughout the year.</p>
+                <ul>
+                    <li><strong>Traditional Fest of the Immaculate Conception:</strong> An annual celebration featuring religious ceremonies, music, and local cuisine</li>
+                    <li><strong>Navy Day (June 1):</strong>A military parade commemorating the armed forces, with festivities in coastal towns like San Blas.</li>
+                </ul>            
+            </article>
         </section>
-        <section class="card">
-            <h2> Demographics</h2>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, eum.</p>
+
+        <section class="gallery">
+            <figure class="santafe">
+                <picture>
+                    <source srcset="/chamber/images/sierra-small.webp" media="(max-width: 500px)">
+                    <source srcset="/chamber/images/sierra-medium.webp" media="(max-width: 1000px)">
+                    <img class="hover" src="/chamber/images/sierra-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
+                </picture>
+                <figcaption> Some Random Temple</figcaption>
+            </figure>
+            <figure class="santafe">
+                <picture>
+                    <source srcset="/chamber/images/morada_bienvenido-small.webp" media="(max-width: 500px)">
+                    <source srcset="/chamber/images/morada_bienvenido-medium.webp" media="(max-width: 1000px)">
+                    <img class="hover" src="/chamber/images/morada_bienvenido-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
+                </picture>
+                <figcaption> Some Random Temple</figcaption>
+            </figure>
+            <figure class="santafe">
+                <picture>
+                    <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
+                    <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
+                    <img class="hover" src="/week03/images/hero-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
+                </picture>
+                <figcaption> Some Random Temple</figcaption>
+            </figure>
+            <figure class="santafe">
+                <picture>
+                    <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
+                    <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
+                    <img class="hover" src="/week03/images/hero-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
+                </picture>
+                <figcaption> Some Random Temple</figcaption>
+            </figure>
+            <figure class="santafe">
+                <picture>
+                    <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
+                    <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
+                    <img class="hover" src="/week03/images/hero-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
+                </picture>
+                <figcaption> Some Random Temple</figcaption>
+            </figure>
+            <figure class="santafe">
+                <picture>
+                    <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
+                    <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
+                    <img class="hover" src="/week03/images/hero-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
+                </picture>
+                <figcaption> Some Random Temple</figcaption>
+            </figure>
+            <figure class="santafe">
+                <img class="hover" src="/images/hero-medium.webp" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
+                <figcaption>:hover pseudo-class | box-shadow</figcaption>
+            </figure>
         </section>
-        <section class="card">
-            <h2> Demographics</h2>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, eum.</p>
+
+        <section class="counter">
+            <article class="box">
+            <h2>Information</h2>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+            </article>
         </section>
-        <figure>
-            <picture>
-                <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
-                <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
-                <img class="hover" src="/week03/images/hero-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
-            </picture>
-            <figcaption> Some Random Temple</figcaption>
-        </figure>
-        <figure>
-            <picture>
-                <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
-                <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
-                <img class="hover" src="/week03/images/hero-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
-            </picture>
-            <figcaption> Some Random Temple</figcaption>
-        </figure>
-        <figure>
-            <picture>
-                <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
-                <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
-                <img class="hover" src="/week03/images/hero-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
-            </picture>
-            <figcaption> Some Random Temple</figcaption>
-        </figure>
-        <figure>
-            <picture>
-                <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
-                <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
-                <img class="hover" src="/week03/images/hero-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
-            </picture>
-            <figcaption> Some Random Temple</figcaption>
-        </figure>
-        <figure>
-            <picture>
-                <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
-                <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
-                <img class="hover" src="/week03/images/hero-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
-            </picture>
-            <figcaption> Some Random Temple</figcaption>
-        </figure>
-        <figure>
-            <picture>
-                <source srcset="/images/hero-small.webp" media="(max-width: 500px)">
-                <source srcset="/images/hero-medium.webp" media="(max-width: 1000px)">
-                <img class="hover" src="/week03/images/hero-large.webp" alt="Aba Afric Temple" width="1500" height="750" loading="lazy">
-            </picture>
-            <figcaption> Some Random Temple</figcaption>
-        </figure>
-        <figure>
-            <img class="hover" src="/images/hero-medium.webp" loading="lazy" width="250" height="167" alt="Barranquilla Columbia Temple">
-            <figcaption>:hover pseudo-class | box-shadow</figcaption>
-        </figure>
     </main>
-    <footer>
+
+    <footer class="santafe">
         <p>&copy; 2025 Luis Antonio Olivares | Guadalajara, Mexico 🇲🇽</p>
         <p id="lastModified"></p>
     </footer>
+
     <script src="/scripts/getDates.js"></script>
 
 </body>
