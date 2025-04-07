@@ -1,0 +1,23 @@
+{
+    "familyName" : "Olivares", 
+    "dateFamilyMoved" : 2020,
+    "numberPeopleFamily" : "3",
+    "visitedBishopric" : false,
+    "members" : [
+        {
+          "name" : "Julieta",
+          "gender" : 2,
+          "birthDate" : "2023-01-10"
+        },
+        {
+            "name" : "Montse",
+            "gender" : 31,
+            "birthDate" : "1992-12-26"
+          }
+          {
+            "name" : "Luis",
+            "gender" : 35,
+            "birthDate" : "1989-07-01"
+          }
+    ]
+}
