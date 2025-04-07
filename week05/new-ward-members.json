@@ -13,11 +13,11 @@
             "name" : "Montse",
             "gender" : 31,
             "birthDate" : "1992-12-26"
-          }
-          {
+        },
+        {
             "name" : "Luis",
             "gender" : 35,
             "birthDate" : "1989-07-01"
-          }
+        }
     ]
 }
