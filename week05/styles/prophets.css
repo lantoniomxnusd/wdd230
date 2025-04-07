@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 768;
+
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+section {
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,2);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    background-color:aqua;
+    font-size: 1.5rem;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2  {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+}
