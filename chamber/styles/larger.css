@@ -49,6 +49,7 @@
         flex-wrap: wrap;
         gap: 1rem;
       }
+      
     .counter {
         display: flex;
         grid-column-start: 1;
