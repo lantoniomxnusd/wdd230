@@ -212,3 +212,8 @@ iframe {
     width: 100%;
     height: auto;
 }
+
+.card #nayWeatherFig {
+    display: flex;
+    justify-content: center;
+}
