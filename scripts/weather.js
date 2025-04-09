@@ -2,7 +2,7 @@ const currentTemp = document.querySelector ('#nayCurrentTemp');
 const weatherIcon = document.querySelector ('#nayWeatherIcon');
 const captionDesc = document.querySelector ('#nayWeatherFigCap');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=22.03&lon=105.07&units=imperial&appid=86cfea63afec3c9d114a62b465fe6c1e';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=22.03&lon=-105.07&units=imperial&appid=86cfea63afec3c9d114a62b465fe6c1e';
 
 async function apiFetch(){
     try{
@@ -21,8 +21,8 @@ async function apiFetch(){
 
 function displayResults (data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;`;
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    let desc = data.weather [0].description
+    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+    let desc = data.weather [0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = `${desc}`;
