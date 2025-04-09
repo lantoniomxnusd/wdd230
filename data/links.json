@@ -1,0 +1,86 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "HG Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "mQueries"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "https://codepen.io/Luis-Olivares-the-builder/pen/RNwMWXd?editors=0110",
+            "title": "Hamburger Menu"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "images/landscape.webp",
+            "title": "Webp"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazy Images"
+          },
+          {
+            "url": "week03/responsive-images.html",
+            "title": "responsive-images"
+          },
+          {
+            "url": "week03/bom.html",
+            "title": "Web Storage API - LocalStorage"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "https://codepen.io/Luis-Olivares-the-builder/pen/pvoKWmZ",
+            "title": "CSS Pseudo-Classes"
+          },
+          {
+            "url": "week04/tablebuild.html",
+            "title": "Table Build"
+          },
+          {
+            "url": "practice-form/index.html",
+            "title": "Form"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "https://codepen.io/Luis-Olivares-the-builder/pen/wBvZpbW",
+            "title": "CSS Pseudo-elements"
+          },
+          {
+            "url": "week05/new-ward-members.json",
+            "title": "JSON"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "The Fetch API"
+          },
+          {
+            "url": "week05/weather.html",
+            "title": "Consuming a Weather API"
+          }
+        ]
+      }
+    ]
+  }
+  
