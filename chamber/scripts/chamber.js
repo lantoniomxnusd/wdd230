@@ -34,3 +34,7 @@ if (!lastVisit) {
 }
 
 localStorage.setItem("chamLastVisit", currentVisit.toString());
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("formTimestamp").value = new Date().toISOString();
+  });

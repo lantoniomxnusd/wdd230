@@ -1,0 +1,105 @@
+
+:root {
+    --primary-color: #4A7C59;
+    --secondary-color: #D67D3E;
+    --accent-color: #E8B047;
+    --text-color: white;
+    --font-heading: "Playfair Display";
+    --font-paragraph:"Lato"
+}
+
+  /* * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+  body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+} */
+
+
+/* -----------Form STyling---------- */
+.signup fieldset{
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem;
+
+}
+
+.signup legend {
+    color:#445ba9;
+    padding: 0 .5rem;
+    font-size: 1.25rem;
+}
+
+.signup label{
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .9rem ;
+}
+
+.signup {
+    padding-top: 1rem;
+    color:#445ba9;
+    font-size: .9rem;
+}
+
+.signup input[type="text"],
+ input[type="tel"],
+ input[type="email"],
+ input[type="url"],
+ input[type="date"],
+ select,
+ input[type="number"],
+ input[type="password"]{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+    
+}
+
+ input[type="radio"],
+ input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+ input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(#9c2c13, #6f200e);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+ input:required {
+    border-bottom: solid 8px red;
+}
+
+ input:required:valid {
+    border-bottom: solid 8px green;
+}
+
+
+/*----------- Validation form --------------*/
+label {
+    display: block;
+}
+
+#feedback {
+    color:red;
+}
