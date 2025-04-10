@@ -34,66 +34,69 @@
             <li><a href="#">Join</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="join-container">
         <h1>Membership Signup</h1>
-        <form method="get" action="/chamber/thankyou.html" class="signup">
-        <fieldset>
-            <legend>Member Information</legend>
-            <label>first Name* <input type="text" id="userName" name="userName" required></label>
-            <label>Last Name*<input type="text" id="userLastName" name="userLastName" required></label>
-            <label>Position*<input type="text" id="position" name="position" pattern="[A-Za-z\s-]{7,}" required></label>
-            <label>Email*<input type="tel" id="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label>Phone Number*<input type="text" id="phone" name="phone"></label>
-            <label>Business/Organization Name* <input type="text" id="orgName" name="orgName" required></label>
-            <label>Membership Level*<select id="membershipLevel" name="membershipLevel" required>
-                <option value="">-- Select a Membership Level --</option>
-                <option value="NP">NP Membership (No fee, for non-profits)</option>
-                <option value="Bronze">Bronze Membership</option>
-                <option value="Silver">Silver Membership</option>
-                <option value="Gold">Gold Membership</option>
-                </select>
-            </label>
-            <label>Organization Description <textarea id="orgDescription" name="orgDescription"> </textarea></label>
-            <input type="hidden" id="formTimestamp" name="formTimestamp" value="">
-        </fieldset>
-            <input type="submit" value = "Join">
-            <div class="benefits-column">
-                <h3>Membership Benefits</h3>
-            
-        <div class="membership-level">
-            <strong>NP Membership:</strong>
-                <ul>
-                    <li>No fee</li>
-                    <li>Basic event access</li>
-                </ul>
+        <div class="signup">
+            <form method="get" action="/chamber/thankyou.html" class="signup">
+            <fieldset>
+                <legend>Member Information</legend>
+                <label>First Name* <input type="text" id="userName" name="userName" required></label>
+                <label>Last Name*<input type="text" id="userLastName" name="userLastName" required></label>
+                <label>Position*<input type="text" id="position" name="position" pattern="[A-Za-z\s-]{7,}" required></label>
+                <label>Email*<input type="tel" id="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Phone Number*<input type="text" id="phone" name="phone"></label>
+                <label>Business/Organization Name* <input type="text" id="orgName" name="orgName" required></label>
+                <label>Membership Level*<select id="membershipLevel" name="membershipLevel" required>
+                    <option value="">-- Select a Membership Level --</option>
+                    <option value="NP">NP Membership (No fee, for non-profits)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                    </select>
+                </label>
+                <label>Organization Description <textarea id="orgDescription" name="orgDescription"> </textarea></label>
+                <input type="hidden" id="formTimestamp" name="formTimestamp" value="">
+            </fieldset>
+                <input type="submit" value = "Join">
         </div>
-            
-        <div class="membership-level">
-            <strong>Bronze Membership:</strong>
-            <ul>
-                <li>Event discounts</li>
-                <li>Monthly newsletter spotlight</li>
-            </ul>
-        </div>
-            
-        <div class="membership-level">
-            <strong>Silver Membership:</strong>
-                <ul>
-                    <li>All Bronze benefits</li>
-                    <li>Training sessions</li>
-                    <li>Ad placement on homepage</li>
-                </ul>
-        </div>
-            
-        <div class="membership-level">
-            <strong>Gold Membership:</strong>
-                <ul>
-                    <li>All Silver benefits</li>
-                    <li>Priority advertising</li>
-                    <li>Exclusive events & sponsor features</li>
-                </ul>
+
+            <section class="benefits-column">
+                <h2>Membership Benefits</h2>
+                <div class="membership-level">
+                    <h2>NP Membership:</h2>
+                        <ul>
+                            <li>No fee</li>
+                            <li>Basic event access</li>
+                        </ul>
                 </div>
-        </div>
+                    
+                <div class="membership-level">
+                    <h3>Bronze Membership:</h3>
+                    <ul>
+                        <li>Event discounts</li>
+                        <li>Monthly newsletter spotlight</li>
+                    </ul>
+                </div>
+                    
+                <div class="membership-level">
+                    <h3>Silver Membership:</h3>
+                        <ul>
+                            <li>All Bronze benefits</li>
+                            <li>Training sessions</li>
+                            <li>Ad placement on homepage</li>
+                        </ul>
+                </div>
+                    
+                <div class="membership-level">
+                    <h3>Gold Membership:</h3>
+                        <ul>
+                            <li>All Silver benefits</li>
+                            <li>Priority advertising</li>
+                            <li>Exclusive events & sponsor features</li>
+                        </ul>
+                </div>
+            </div>
+    </div>
     </main>
 
     <footer>
