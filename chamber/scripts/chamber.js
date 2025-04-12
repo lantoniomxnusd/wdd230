@@ -40,5 +40,5 @@ const timestampField = document.getElementById('formTimestamp');
 
 form.addEventListener('submit', function () {
     const now = new Date();
-    timestampField.value = now.toISOString(); // ISO format: 2025-04-11T16:20:30.000Z
+    timestampField.value = now.toISOString(); // ISO format: e.g. 2025-04-11T16:20:30.000Z
 });
