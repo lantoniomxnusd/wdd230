@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (form && timestampInput) {
         form.addEventListener("submit", () => {
             const now = new Date();
-            timestampInput.value = now.toISOString(); // e.g., "2025-04-11T18:30:00.000Z"
+            timestampInput.value = now.toISOString();
         });
     }
 });
