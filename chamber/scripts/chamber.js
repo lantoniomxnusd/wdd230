@@ -37,10 +37,12 @@ localStorage.setItem("chamLastVisit", currentVisit.toString());
 
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.querySelector(".form");
-    const timestampField = document.getElementById("formTimestamp");
+    const timestampInput = document.getElementById("formTimestamp");
 
-    form.addEventListener("submit", () => {
-        const now = new Date();
-        timestampField.value = now.toISOString();
-    });
+    if (form && timestampInput) {
+        form.addEventListener("submit", () => {
+            const now = new Date();
+            timestampInput.value = now.toISOString(); // e.g., "2025-04-11T18:30:00.000Z"
+        });
+    }
 });
