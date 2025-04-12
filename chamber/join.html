@@ -32,18 +32,18 @@
             <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
-        </ul>test
+        </ul>
     </nav>
     <main class="join-container">
         <h1>Membership Signup</h1>
-            <form method="get" action="chamber/thankyou.html" class="form">
+            <form method="get" action="/chamber/thankyou.html" class="form">
             <fieldset>
                 <legend>Member Information</legend>
                 <label>First Name* <input type="text" id="userName" name="userName" required></label>
                 <label>Last Name*<input type="text" id="userLastName" name="userLastName" required></label>
                 <label>Position*<input type="text" id="position" name="position" pattern="[A-Za-z\s-]{7,}" required></label>
                 <label>Email*<input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label>Phone Number*<input type="text" id="phone" name="phone" required></label>
+                <label>Phone Number*<input type="tel" id="phone" name="phone" required></label>
                 <label>Business/Organization Name* <input type="text" id="orgName" name="orgName" required></label>
                 <label>Membership Level*<select id="membershipLevel" name="membershipLevel" required>
                     <option value="">-- Select a Membership Level --</option>
