@@ -21,7 +21,7 @@ let lastVisit = localStorage.getItem("chamLastVisit");
 let currentVisit = new Date().getTime();
 
 if (!lastVisit) {
-    chamVisits.textContent = "Welcome! Let us know if you have any questions"; // Empty or hide
+    chamVisits.textContent = "Welcome! Let us know if you have any questions"; 
 } else {
     let timeDifference = currentVisit - Number(lastVisit);
     let daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
@@ -39,5 +39,12 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("formTimestamp").value = new Date().toISOString();
   });
 
-
+  const form = document.querySelector('.form');
+  const timestampField = document.getElementById('formTimestamp');
+  
+  form.addEventListener('submit', function () {
+      const now = new Date();
+      timestampField.value = now.toISOString(); 
+  });
+  
   
