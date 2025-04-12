@@ -35,10 +35,12 @@ if (!lastVisit) {
 
 localStorage.setItem("chamLastVisit", currentVisit.toString());
 
-const form = document.querySelector('.form');
-const timestampField = document.getElementById('formTimestamp');
+document.addEventListener("DOMContentLoaded", () => {
+    const form = document.querySelector(".form");
+    const timestampField = document.getElementById("formTimestamp");
 
-form.addEventListener('submit', function () {
-    const now = new Date();
-    timestampField.value = now.toISOString(); // ISO format: e.g. 2025-04-11T16:20:30.000Z
+    form.addEventListener("submit", () => {
+        const now = new Date();
+        timestampField.value = now.toISOString();
+    });
 });
