@@ -35,16 +35,3 @@ if (!lastVisit) {
 
 localStorage.setItem("chamLastVisit", currentVisit.toString());
 
-document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("formTimestamp").value = new Date().toISOString();
-  });
-
-  const form = document.querySelector('.form');
-  const timestampField = document.getElementById('formTimestamp');
-  
-  form.addEventListener('submit', function () {
-      const now = new Date();
-      timestampField.value = now.toISOString(); 
-  });
-  
-  
