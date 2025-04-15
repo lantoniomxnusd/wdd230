@@ -1,43 +1,65 @@
-const directory = document.getElementById('directory');
-const gridBtn = document.getElementById('grid');
-const listBtn = document.getElementById('list');
+const cards = document.querySelector('#cards');
+const gridbutton = document.querySelector('#grid');
+const listbutton = document.querySelector('#list');
+
 
 async function getMemberData() {
-    try {
-        const response = await fetch('data/members.json');
-        const data = await response.json();
-        displayMembers(data);
-    } catch (error) {
-        console.error('Error loading member data:', error);
-    }
-}
+    const response = await fetch('data/members.json');
+    const data = await response.json();
+    // console.table(data.members); 
+    displayMembers (data.members);
+  }
 
-function displayMembers(members) {
-    cards.innerHTML = ''; // Clear existing content
-    
-    members.forEach((member) => {
-        const card = document.createElement('section');
-        directory.innerHTML = `
-            <h2>${member.name}</h2>
-            <img src="images/${member.image}" alt="${member.name} logo" loading="lazy">
-            <p class="address">${member.address}</p>
-            <p class="phone">${member.phone}</p>
-            <a href="${member.website}" target="_blank" rel="noopener">Visit Website</a>
-            <p class="membership">${member.membershipLevel} Member</p>
-            ${member.additionalInfo ? `<p class="additional">${member.additionalInfo}</p>` : ''}
-        `;
+getMemberData();
+
+const displayMembers = (members)=> {
+    members.forEach((member)=> {
+        let card = document.createElement ('section');
+        card.classList.add('card');
+
+        let name = document.createElement('h2');
+        let image = document.createElement('img');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
+        let website = document.createElement('a');
+        let membershipLevel = document.createElement('p'); 
+        let additionalInfo = document.createElement('p');
+
+        name.textContent = member.name;
+        address.textContent = member.address;
+        phone.textContent = `Phone: ${member.phone}`;
+        website.textContent = member.website;
+        website.setAttribute('href', member.website);
+        membershipLevel.textContent = `${member.membershipLevel} Member`;
+
+        image.setAttribute('src', member.image);
+        image.setAttribute('alt', `Logo for ${member.name}`);
+        image.setAttribute('loading', 'lazy');
+        image.setAttribute('width', '340');
+        image.setAttribute('height', '240');
+
+        card.appendChild(name);
+        card.appendChild(image);
+        card.appendChild(address);
+        card.appendChild(phone);
+        card.appendChild(website);
+        card.appendChild(membershipLevel);
+        card.appendChild(additionalInfo);
+
         cards.appendChild(card);
     });
 }
 
-// View toggle functionality
-gridBtn.addEventListener('click', () => {
-    cards.classList.replace('list', 'grid');
+
+
+gridbutton.addEventListener("click", () => {
+	cards.classList.add("grid");
+	cards.classList.remove("list");
+	console.log("Switched to Grid view. Class is now:", cards.className);
 });
 
-listBtn.addEventListener('click', () => {
-    cards.classList.replace('grid', 'list');
+listbutton.addEventListener("click", () => {
+	cards.classList.add("list");
+	cards.classList.remove("grid");
+	console.log("Switched to List view. Class is now:", cards.className);
 });
-
-// Initial load
-getMemberData();
