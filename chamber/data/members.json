@@ -1,75 +1,28 @@
-{
-    "santaFeChamber": [
-      {
-        "name": "Joseph",
-        "lastname": "Smith",
-        "phoneNumber": "23 December 1805",
-        "websiteURLs": "27 June 1844",
-        "membership": 1,
-        "addtl": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
-      },
-      {
-        "name": "Joseph",
-        "lastname": "Smith",
-        "phoneNumber": "23 December 1805",
-        "websiteURLs": "27 June 1844",
-        "membership": 1,
-        "addtl": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
-      },
-      {
-        "name": "Joseph",
-        "lastname": "Smith",
-        "phoneNumber": "23 December 1805",
-        "websiteURLs": "27 June 1844",
-        "membership": 1,
-        "addtl": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
-      },
-      {
-        "name": "Joseph",
-        "lastname": "Smith",
-        "phoneNumber": "23 December 1805",
-        "websiteURLs": "27 June 1844",
-        "membership": 1,
-        "addtl": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
-      },
-      {
-        "name": "Joseph",
-        "lastname": "Smith",
-        "phoneNumber": "23 December 1805",
-        "websiteURLs": "27 June 1844",
-        "membership": 1,
-        "addtl": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
-      },
-      {
-        "name": "Joseph",
-        "lastname": "Smith",
-        "phoneNumber": "23 December 1805",
-        "websiteURLs": "27 June 1844",
-        "membership": 1,
-        "addtl": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
-      },
-      {
-        "name": "Joseph",
-        "lastname": "Smith",
-        "phoneNumber": "23 December 1805",
-        "websiteURLs": "27 June 1844",
-        "membership": 1,
-        "addtl": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
-      }
-      
-    ]
-  }
+[
+    {
+        "name": "Santa Fe Farms",
+        "address": "123 Agricultural Road",
+        "phone": "+52 323 555 0101",
+        "website": "https://santafefarms.com",
+        "image": "farm-icon.png",
+        "membershipLevel": "Gold",
+        "additionalInfo": "Organic produce specialists"
+    },
+    {
+        "name": "Tepic Hardware",
+        "address": "456 Construction Street",
+        "phone": "+52 323 555 0202",
+        "website": "https://tepic-hardware.com",
+        "image": "hardware-icon.png",
+        "membershipLevel": "Silver",
+        "additionalInfo": "Building materials supplier"
+    },
+    {
+        "name": "Riviera Tourism",
+        "address": "789 Coastal Highway",
+        "phone": "+52 323 555 0303",
+        "website": "https://rivieratours.mx",
+        "image": "tourism-icon.png",
+        "membershipLevel": "Bronze"
+    }
+]

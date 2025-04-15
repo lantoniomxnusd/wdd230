@@ -70,4 +70,18 @@
         grid-column: 1 /3; 
     }
 
+    .grid-view {
+        .grid-view {
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        }
+    }
+
+    .member-card {
+        padding: 1rem;
+    }
+    
+    .view-toggle button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
 }
