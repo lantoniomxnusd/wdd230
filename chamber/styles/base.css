@@ -314,7 +314,7 @@ section p {
 section a {
 	font-family: var(--font-paragraph);
 	font-size: 0.9rem;
-	color:darkblue;
+	color:blue
     text-align: center;
 
 }
