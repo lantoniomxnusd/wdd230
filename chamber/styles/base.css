@@ -235,15 +235,17 @@ Week 05 Directory */
 
     
 .card {
-    border-radius: 2px;
     padding: 1rem;
     overflow: hidden;
     padding: 20px;
     font-family: var(--font-paragraph);
     max-width: 400px;
     transition: transform 0.2s ease-in-out;
-    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
 
+.grid .card {
+    box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
 }
 
 .grid {
@@ -266,17 +268,17 @@ Week 05 Directory */
 .list {
 	display: flex;
 	flex-direction: column;
+    width: 100%;
 }
 
 .list section {
 	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	margin: 0;
-	padding: 0.25rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .list section > * {
-	margin: 0 1rem;
+	margin: 0 auto;
+    padding: 4px;
 }
 
 .list section img {
@@ -289,7 +291,7 @@ Week 05 Directory */
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color:#edfbfa ;
 }
 
 section h2 {
@@ -301,7 +303,6 @@ section h3 {
 }
 
 section p {
-	font-size: smaller;
     font-family: var(--font-paragraph);
 }
 
