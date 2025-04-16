@@ -309,12 +309,14 @@ section h3 {
 
 section p {
     font-family: var(--font-paragraph);
+    text-align: ;
 }
 
 section a {
 	font-family: var(--font-paragraph);
 	font-size: 0.9rem;
 	color: navy;
+    text-align: center;
 
 }
 
